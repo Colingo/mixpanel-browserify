@@ -2936,4 +2936,4 @@ Globals should be all caps
     // fallback handler, always will work
     _.register_event(window, 'load', dom_loaded_handler, true);
 
-})(window['mixpanel'] || {});
+})(window['mixpanel']);
