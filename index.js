@@ -2870,7 +2870,12 @@ Globals should be all caps
                 instance = create_mplib(token, config, PRIMARY_INSTANCE_NAME);
             }
 
-            window[PRIMARY_INSTANCE_NAME] = mixpanel = instance;
+            if (typeof module !== "undefined" && module.exports) {
+                module.exports = mixpanel = instance;
+            } else {
+                window[PRIMARY_INSTANCE_NAME] = mixpanel = instance;
+            }
+
             extend_mp();
         }
     };
