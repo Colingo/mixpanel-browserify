@@ -1,8 +1,8 @@
 # mixpanel-browserify
 
-[![build status][1]][2] [![dependency status][3]][4]
+<!-- [![build status][1]][2] [![dependency status][3]][4]
 
-[![browser support][5]][6]
+[![browser support][5]][6] -->
 
 A browserify compliant version of mixpanel JS client
 
@@ -22,7 +22,7 @@ mixpanel.doShit()
 
 ## Contributors
 
- - Raynos
+ - Mixpanel people
 
 ## MIT Licenced
 
