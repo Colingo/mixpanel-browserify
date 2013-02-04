@@ -9,7 +9,11 @@ A browserify compliant version of mixpanel JS client
 ## Example
 
 ```js
+var mixpanel = require("mixpanel-browserify")
 
+mixpanel.init({ /* tokens */ })
+
+mixpanel.doShit()
 ```
 
 ## Installation
