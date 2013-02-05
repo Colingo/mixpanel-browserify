@@ -13,7 +13,7 @@ var mixpanel = require("mixpanel-browserify")
 
 mixpanel.init({ /* tokens */ })
 
-mixpanel.doShit()
+mixpanel.doStuff()
 ```
 
 ## Installation
