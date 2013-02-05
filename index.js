@@ -28,8 +28,11 @@ this.__x == private - only use within the class
 
 Globals should be all caps
 */
-(function (mixpanel) {
 
+var MIXPANEL_INITIAL = [];
+MIXPANEL_INITIAL.__SV = 1.2;
+
+(function (mixpanel) {
 /*
  * Saved references to long variable names, so that closure compiler can
  * minimize file size.
@@ -2941,4 +2944,4 @@ Globals should be all caps
     // fallback handler, always will work
     _.register_event(window, 'load', dom_loaded_handler, true);
 
-})(window['mixpanel'] || {});
+})(window['mixpanel'] || MIXPANEL_INITIAL);
