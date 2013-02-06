@@ -1,6 +1,6 @@
 {
   "name": "mixpanel-browserify",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "A browserify compliant version of mixpanel JS client",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
