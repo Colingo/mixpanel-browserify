@@ -2944,4 +2944,4 @@ MIXPANEL_INITIAL.__SV = 1.2;
     // fallback handler, always will work
     _.register_event(window, 'load', dom_loaded_handler, true);
 
-})(window['mixpanel'] || MIXPANEL_INITIAL);
+})(MIXPANEL_INITIAL);
